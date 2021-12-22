@@ -5,13 +5,13 @@
 Функции те же самые, что были отправлены для проверки.
 """
 
-import pract1
-import pract2
-import pract3
-import pract4
-import pract5
-import pract6
-import pract7_8
+from . import pract1
+from . import pract2
+from . import pract3
+from . import pract4
+from . import pract5
+from . import pract6
+from . import pract7_8
 
 print("""Модуль разделен на пакеты.
 Каждый пакет соответсвует техническому заданию.

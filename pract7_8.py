@@ -457,8 +457,10 @@ def greedy(matrix):
     way = '-'.join(way)
     return way, way_length
 
-def main(matrix = randomize_matrix()):
+def main(matrix = None):
     """Решение основными методами и их сранение"""
+    if matrix is None:
+        matrix = randomize_matrix()
     start_time = time.time()
     result = branch_and_bound(matrix)
     end_time = time.time()
